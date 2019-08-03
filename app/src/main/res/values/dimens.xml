@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size_heading">20dp</dimen>
+    <dimen name="et_input_size_16dp">16dp</dimen>
+    <dimen name="btn_txt_size_14dp">14dp</dimen>
+    <dimen name="text_size_18_dp">18dp</dimen>
+    <dimen name="btn_drawable_padding_size_30dp">30dp</dimen>
+    <dimen name="btn_drawable_padding_end_size_20dp">20dp</dimen>
+    <dimen name="btn_google_drawable_padding_left_size_25dp">25dp</dimen>
+    <dimen name="txt_forgot_password_size_12dp">12dp</dimen>
+</resources>

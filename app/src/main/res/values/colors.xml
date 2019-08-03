@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#2B2D5C</color>
+    <color name="txt_color_heading">#2B2D5C</color>
+    <color name="txt_input_hint_color">#707070</color>
+    <color name="txt_input_line_color">#ceced0</color>
+    <color name="et_error_color">#dd2c00</color>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/premium"
+                android:icon="@drawable/ico_premium"
+                android:title="@string/txt_premium"/>
+        <item
+                android:id="@+id/term_and_conditions"
+                android:icon="@drawable/ico_terms_and_conditions"
+                android:title="@string/txt_term_and_conditions"/>
+
+        <item
+                android:id="@+id/account_settings"
+                android:icon="@drawable/ico_account_setting"
+                android:title="@string/txt_account_setting"/>
+    </group>
+
+
+</menu>

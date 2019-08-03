@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">KhaadiStore</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_continue_with_facebook">Continue with Facebook</string>
+    <string name="txt_continue_with_google">Continue with Google</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="txt_need_to_register">Need to Register?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_country_code">+92</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="already_have_account">Already have account ?
+        <u>LOGIN</u>
+    </string>
+    <string name="txt_verification">verification</string>
+    <string name="we_have_sent">We have sent you a pin, please enter\nthat pin below to get started</string>
+    <string name="txt_did_not_receive_pin">Did\'nt receive pin ?
+        <u>RETRY</u>
+    </string>
+    <string name="txt_forgot_password">Forgot Password</string>
+    <string name="txt_enter_your_email_below">Enter your email below, we will send you\nan email with password reset
+        link
+    </string>
+    <string name="txt_reset_password">Reset password</string>
+    <string name="txt_go_back">Go Back?</string>
+    <string name="txt_congratulations">Congratulations</string>
+    <string name="txt_your_account_has">Your account has been created, please complete\nyour profile in order to
+        continue.
+    </string>
+    <string name="txt_upload">Upload Logo</string>
+    <string name="txt_shop_name">Shop Name</string>
+    <string name="txt_level">Level</string>
+    <string name="txt_shop_managed_by">Shop Managed By</string>
+    <string name="txt_create">Create</string>
+    <string name="khaadi_store">Khaadi Store</string>
+    <string name="nav_header_title">Khaadi</string>
+    <string name="nav_header_subtitle">Level 1</string>
+    <string name="txt_premium">Premium\nGet the detailed insights\nof your customers</string>
+    <string name="txt_term_and_conditions">Terms &amp; Conditions</string>
+    <string name="txt_account_setting">Account Settings</string>
+</resources>

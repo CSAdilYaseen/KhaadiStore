@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/signInFragment">
+
+    <fragment
+            android:id="@+id/signInFragment"
+            android:name="com.khaadistore.pk.modules.signInModule.SignInFragment"
+            android:label="fragment_sign_in"
+            tools:layout="@layout/fragment_sign_in">
+        <action android:id="@+id/action_signInFragment_to_signUpFragment" app:destination="@id/signUpFragment"
+                app:enterAnim="@anim/nav_default_pop_enter_anim" app:exitAnim="@anim/nav_default_pop_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/signUpFragment" android:name="com.khaadistore.pk.modules.signUpModule.SignUpFragment"
+              android:label="fragment_sign_up" tools:layout="@layout/fragment_sign_up">
+        <action android:id="@+id/action_signUpFragment_to_signInFragment" app:destination="@id/signInFragment"
+                app:enterAnim="@anim/nav_default_pop_enter_anim" app:exitAnim="@anim/nav_default_pop_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"
+                app:popUpTo="@+id/nav_graph"/>
+        <action android:id="@+id/action_signUpFragment_to_verificationFragment"
+                app:destination="@id/verificationFragment" app:enterAnim="@anim/nav_default_pop_enter_anim"
+                app:exitAnim="@anim/nav_default_pop_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/verificationFragment"
+              android:name="com.khaadistore.pk.modules.signUpModule.VerificationFragment"
+              android:label="fragment_verification" tools:layout="@layout/fragment_verification">
+        <action android:id="@+id/action_verificationFragment_to_forgotPasswordFragment"
+                app:destination="@id/forgotPasswordFragment" app:enterAnim="@anim/nav_default_pop_enter_anim"
+                app:exitAnim="@anim/nav_default_pop_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/forgotPasswordFragment"
+              android:name="com.khaadistore.pk.modules.signUpModule.ForgotPasswordFragment"
+              android:label="fragment_forgot_password" tools:layout="@layout/fragment_forgot_password">
+        <action android:id="@+id/action_forgotPasswordFragment_to_congratulationsFragment"
+                app:destination="@id/congratulationsFragment" app:enterAnim="@anim/nav_default_pop_enter_anim"
+                app:exitAnim="@anim/nav_default_pop_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/congratulationsFragment"
+              android:name="com.khaadistore.pk.modules.signUpModule.CongratulationsFragment"
+              android:label="fragment_congratulations" tools:layout="@layout/fragment_congratulations"/>
+</navigation>
