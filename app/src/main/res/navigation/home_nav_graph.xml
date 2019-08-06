@@ -7,6 +7,6 @@
         app:startDestination="@id/dashBoardFragment">
 
     <fragment android:id="@+id/dashBoardFragment"
-              android:name="com.khaadistore.pk.modules.homeModule.DashBoardFragment"
-              tools:layout="@layout/fragment_dash_board"/>
+              android:name="com.khaadistore.pk.modules.owner.MainFragment"
+              tools:layout="@layout/fragment_main"/>
 </navigation>

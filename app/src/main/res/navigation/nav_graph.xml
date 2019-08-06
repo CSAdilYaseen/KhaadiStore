@@ -45,4 +45,5 @@
     <fragment android:id="@+id/congratulationsFragment"
               android:name="com.khaadistore.pk.modules.signUpModule.CongratulationsFragment"
               android:label="fragment_congratulations" tools:layout="@layout/fragment_congratulations"/>
+
 </navigation>

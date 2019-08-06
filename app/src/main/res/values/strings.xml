@@ -42,4 +42,12 @@
     <string name="txt_premium">Premium\nGet the detailed insights\nof your customers</string>
     <string name="txt_term_and_conditions">Terms &amp; Conditions</string>
     <string name="txt_account_setting">Account Settings</string>
+    
+    <!--welcome fragment-->
+    <string name="welcome.message">You will be able to create a sale post once\nyour shop profile has been verified.</string>
+    
+    <!--add sale fragment-->
+    <string-array name="sale_items">
+        <item>Flat</item>
+    </string-array>
 </resources>

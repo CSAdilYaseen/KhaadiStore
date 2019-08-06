@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp"
+            android:id="@+id/linearLayout">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Picture of your sales banner"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/upload_image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/linearLayout2">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sale Percentage"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner2"
+                    android:entries="@array/sale_items"
+                    android:layout_weight="1"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="50"/>
+
+            <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_percentage"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Date"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="24dp"
+            android:id="@+id/textInputLayout4">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feb 25, 2018"
+                android:drawableRight="@drawable/ic_calendar"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Date"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+            android:id="@+id/textInputLayout5">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feb 28, 2018"
+                android:drawableRight="@drawable/ic_calendar"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout5"
+            app:layout_constraintEnd_toEndOf="@+id/textInputLayout5"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:id="@+id/linearLayout3">
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Open Ended"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="11sp"
+                android:text="(I will manual end the promotion)"/>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Description"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lorem ipsum dolor … "/>
+    </android.support.design.widget.TextInputLayout>
+
+</android.support.constraint.ConstraintLayout>
