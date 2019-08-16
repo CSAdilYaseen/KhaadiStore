@@ -44,6 +44,13 @@
     </fragment>
     <fragment android:id="@+id/congratulationsFragment"
               android:name="com.khaadistore.pk.modules.signUpModule.CongratulationsFragment"
-              android:label="fragment_congratulations" tools:layout="@layout/fragment_congratulations"/>
+              android:label="fragment_congratulations" tools:layout="@layout/fragment_congratulations">
+        <action
+                android:id="@+id/action_congratulationsFragment_to_userSalesFragment"
+                app:destination="@id/userSalesFragment"/>
+    </fragment>
+    <fragment android:id="@+id/userSalesFragment"
+              android:name="com.khaadistore.pk.modules.user.SalesFragment"
+              android:label="fragment_congratulations" tools:layout="@layout/fragment_user_sales"/>
 
 </navigation>
